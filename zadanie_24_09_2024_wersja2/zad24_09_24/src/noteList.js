@@ -46,9 +46,9 @@ const NoteList = () =>{
                 </div>
             ) :
             (
-                notes.map((note) => (
+                <div>
+                {notes.map((note) => (
                     <div key={note.id}>
-                        {console.log(note)}
                         <h1>{note.tytul}</h1>
                         <h3>{note.tresc}</h3>
                         <h5>{note.date}</h5>
@@ -63,7 +63,12 @@ const NoteList = () =>{
                             Delete
                         </button>
                     </div>
-                ))
+                ))}
+                <button
+                    onClick={() => setCurrentNote({tytul: "NewNote", tresc: "NewNote"})}>
+                    Add New Note
+                    </button>
+                </div>
             )}
         </div>
     );
