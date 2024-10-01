@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+}
+.task {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.task.disabled {
+    background-color: #f8f9fa;
+    opacity: 0.6;
+}
