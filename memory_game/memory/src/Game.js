@@ -10,6 +10,8 @@ const Game = ({mode}) => {
     const [openIndexes, setOpenIndexes] = useState([]);
     const [count, setCount] = useState(0);
     const [countPairs, setCountPairs] = useState(0);
+    const [indexesPairs, setIndexesPairs] = useState([]);
+    const [wait, setWait] = useState(false);
     const [win, setWin] = useState(false);
 
     const clickCard = (index) => {
@@ -24,6 +26,7 @@ const Game = ({mode}) => {
     const checkWin = (index1, index2) => {
         if(shuffledCards[index1].value === shuffledCards[index2].value){
             setCountPairs(countPairs + 1);
+            setIndexesPairs([...indexesPairs, index1, index2]);
         }else{
             setTimeout(() => {
                 const newVisibleCards = [...visibleCards];
@@ -35,9 +38,6 @@ const Game = ({mode}) => {
         setCountOpenCards(0);
         setOpenIndexes([]);
         setCount(count + 1);
-        if(shuffledCards.length === countPairs * 2){
-            setWin(true);
-        }
     }
     const cards = [
         { value: "10", suit: "S" },
@@ -72,6 +72,12 @@ const Game = ({mode}) => {
         }
     }, [countOpenCards]);
 
+    useEffect(() => {
+        if(16 === countPairs * 2){
+            setWin(true);
+        }
+    }, [countPairs]);
+
     useEffect(() =>{
         schuffleCards();
     }, []);
@@ -80,15 +86,16 @@ const Game = ({mode}) => {
         <div className="text-center">
             <h1>Memory GAME MODE: {mode}</h1>
             <div className="container">
-                <h1>Prób: {count}</h1>
-                <h1>Par znaleziono: {countPairs}</h1>
+                <h2>Prób: {count}</h2>
+                <h2>Par znaleziono: {countPairs}</h2>
+                {win ? <h1>Wygrales</h1> : null}
                 <Table responsive>
                     <tbody>
                         <tr>
                             {shuffledCards ? shuffledCards.map((card, index) => (
                                 index < 4 ?
                                 <td key={index}>
-                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={() => clickCard(index)} />
+                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={openIndexes.includes(index) || indexesPairs.includes(index) || wait ? null : () => clickCard(index)} />
                                 </td> : null
                             )) : null}
                         </tr>
@@ -96,7 +103,7 @@ const Game = ({mode}) => {
                             {shuffledCards ? shuffledCards.map((card, index) => (
                                 index < 8 && index >= 4 ?
                                 <td key={index}>
-                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={() => clickCard(index)} />
+                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={openIndexes.includes(index) || indexesPairs.includes(index) || wait ? null : () => clickCard(index)} />
                                 </td> : null
                             )) : null}
                         </tr>
@@ -104,7 +111,7 @@ const Game = ({mode}) => {
                             {shuffledCards ? shuffledCards.map((card, index) => (
                                 index < 12 && index >= 8 ?
                                 <td key={index}>
-                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={() => clickCard(index)} />
+                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={openIndexes.includes(index) || indexesPairs.includes(index) || wait ? null : () => clickCard(index)} />
                                 </td> : null
                             )) : null}
                         </tr>
@@ -112,7 +119,7 @@ const Game = ({mode}) => {
                             {shuffledCards ? shuffledCards.map((card, index) => (
                                 index < 16 && index >= 12 ?
                                 <td key={index}>
-                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={() => clickCard(index)} />
+                                    <Card key={index} value={card.value} suit={card.suit} visible={visibleCards[index]} onClick={openIndexes.includes(index) || indexesPairs.includes(index) || wait ? null : () => clickCard(index)} />
                                 </td> : null
                             )) : null}
                         </tr>
