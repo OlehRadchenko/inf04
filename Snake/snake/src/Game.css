@@ -1,0 +1,130 @@
+.app {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 3px;
+    margin: 20px auto;
+    border: 3px solid #333;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cell.snake {
+    background-color: #4caf50;
+    animation: pulse 0.4s infinite alternate;
+  }
+  
+  .cell.food {
+    background-color: #e91e63;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(233, 30, 99, 0.6);
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #2196f3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #1976d2;
+  }
+  
+  @keyframes pulse {
+    from {
+      background-color: #66bb6a;
+    }
+    to {
+      background-color: #4caf50;
+    }
+  }
+  
+  .game-over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .cell.obstacle {
+    background-color: #ff5722;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
+  }
+  
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .cell.food-animation {
+    animation: pulse_apple 0.5s ease forwards;
+  }
+  
+  @keyframes pulse_apple {
+    0% {
+      transform: scale(1);
+      background-color: darkred;
+    }
+    50% {
+      transform: scale(1.2);
+      background-color: red;
+    }
+    100% {
+      transform: scale(1);
+      background-color: darkred;
+    }
+  }
+  
+  .game-over-title {
+    color: red;
+    animation: shake 0.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
