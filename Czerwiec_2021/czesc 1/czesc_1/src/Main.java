@@ -4,21 +4,21 @@ public class Main {
     protected static int[] tab = new int[10];
     public static int[] sort(int[] liczby){
         for(int i=0; i<liczby.length; i++){
-            int min_index = min(liczby, i);
-            int schowek = liczby[min(liczby, i)];
+            int min_index = max(liczby, i);
+            int schowek = liczby[max(liczby, i)];
             liczby[min_index] = liczby[i];
             liczby[i] = schowek;
         }
         return liczby;
     }
-    private static int min(int[] liczby, int startowy_index){
-        int min_index = startowy_index;
+    private static int max(int[] liczby, int startowy_index){
+        int max_index = startowy_index;
         for(int i=startowy_index; i<liczby.length; i++){
-            if(liczby[i] < liczby[min_index]){
-                min_index = i;
+            if(liczby[i] > liczby[max_index]){
+                max_index = i;
             }
         }
-        return min_index;
+        return max_index;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
