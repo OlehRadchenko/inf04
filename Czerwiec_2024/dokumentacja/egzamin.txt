@@ -1,0 +1,4 @@
+Nazwa systemu operacyjnego: Windows
+Nazwy środowisk programistycznych: IntelliJ IDEA Community Edition 2022
+Nazwa emulatora dla aplikacji mobilnej: Android Studio
+Nazwy użytych języków programowania: Java, XML
