@@ -1,0 +1,4 @@
+Godzina rozpoczęcia: 20:00
+Godzina zakończenia: 22:40
+zostało czasu: 20min
+praca samodzielna: tak
