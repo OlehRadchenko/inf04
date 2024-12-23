@@ -5,27 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MojeDzwieki"
         mc:Ignorable="d"
-        Background="SeaGreen"
-        Title="MojeDźwięki, Wykonał: Oleh Radchenko 5P" Height="450" Width="800">
+        Title="MojeDżwięki, Wykonał: Oleh Radchenko" Height="450" Width="1600" Background="SeaGreen">
     <Grid>
-        <Image Source="obraz.png" HorizontalAlignment="Left" Height="205" Margin="166,97,0,0" VerticalAlignment="Top" Width="206" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image Margin="665,182,25,182" Source="/obraz2.png" Stretch="Fill"/>
-        <Image Margin="25,182,679,182" Source="/obraz3.png" Stretch="Fill" Height="70"/>
-        <Label Content="Gorillaz" HorizontalAlignment="Left" Margin="400,123,0,0" VerticalAlignment="Top" FontSize="50" Foreground="White"/>
-        <Label Content="''The Now Now''" HorizontalAlignment="Left" Margin="400,200,0,0" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
-        <Label Content="14 utworów" HorizontalAlignment="Left" Margin="400,250,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
-        <Label Content="2006" HorizontalAlignment="Left" Margin="519,250,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
-        <Label Content="304666444" HorizontalAlignment="Left" Margin="161,350,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
-        <Button Content="Pobierz" HorizontalAlignment="Left" Margin="296,353,0,0" VerticalAlignment="Top" Background="#61D918" FontWeight="Bold" FontSize="20"/>
-
+        <Button Margin="25,182,1479,182" Click="Prev">
+            <Image Source="obraz3.png" Stretch="Fill"/>
+        </Button>
+        <Button Margin="1479,182,25,182" Click="Next">
+            <Image Source="obraz2.png" Stretch="Fill"/>
+        </Button>
+        <Image Margin="165,83,1215,150" Source="/obraz.png"/>
+        <Label x:Name="artist" Content="Nazwa Wykonawcy" HorizontalAlignment="Left" Margin="381,107,0,0" VerticalAlignment="Top" FontSize="50" FontStyle="Italic" Foreground="#FFF"/>
+        <Label x:Name="album" Content='"Tytuł Albumu"' HorizontalAlignment="Left" Margin="381,180,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FFF"/>
+        <Label x:Name="songsNumber" Content="Liczba Utworów" HorizontalAlignment="Left" Margin="371,230,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
+        <Label x:Name="year" Content="Rok wydania" HorizontalAlignment="Left" Margin="543,230,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
+        <Label x:Name="downloadNumber" Content="Liczba Pobrań" HorizontalAlignment="Left" Margin="174,332,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#61D918"/>
+        <Button Content="Pobierz" HorizontalAlignment="Left" Margin="371,333,0,0" VerticalAlignment="Top" Background="#61D918" FontWeight="Bold" FontSize="20" Height="34" Width="87" Click="Pobierz"/>
     </Grid>
 </Window>
