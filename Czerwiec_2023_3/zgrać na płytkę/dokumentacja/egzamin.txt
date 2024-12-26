@@ -1,0 +1,4 @@
+nazwę systemu operacyjnego, na którym pracował zdający - Windows 11
+nazwy środowisk programistycznych, z których zdający korzystał na egzaminie - Visual Studio Code, IntelliJ IDEA Community Edition 2022
+nazwy języków programowania / frameworków / bibliotek użytych podczas tworzenia aplikacji - Java, JavaScript, React, CSS, Bootstrap
+‒ opcjonalnie komentarz do wykonanej pracy - Na zrzucie konsola2.png jest dodatkowe sprawdzenie ilości wyświetleń przy wielokrotnym wywołaniu metody inkrementującej
