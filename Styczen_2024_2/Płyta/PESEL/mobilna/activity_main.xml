@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90EE90"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wizyta u weterynarza"
+            android:textSize="35dp"
+            android:background="#2E8B57"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/wlasciciel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imię i nazwisko właściciela..."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gatunek"/>
+        <ListView
+            android:id="@+id/gatunekLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ile ma lat?  " />
+            <TextView
+                android:id="@+id/ileLat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+
+            <SeekBar
+                android:id="@+id/ileLatSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/cel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cel wizyty"/>
+        <EditText
+            android:id="@+id/godzina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:text="16:00"/>
+        <Button
+            android:id="@+id/okPrzycisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+        <TextView
+            android:id="@+id/wynik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

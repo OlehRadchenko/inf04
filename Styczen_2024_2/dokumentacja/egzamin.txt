@@ -1,0 +1,12 @@
+konsola1.png - przykładowe działanie programu na zdaniu ala ma kota, ale z specjalnie dodanym spacjami oraz losowym użyciu wielkich liter
+konsola2.png - działanie programu gdy użytkownik wpisuje puste pole
+
+mobile5.png - stan początkowy
+mobile1.png, mobile2.png, mobile3.png, mobile4.png - przykładowe działanie aplikacji przy wprowadzeniu różnych danych, największe zmiany można zauważyć obserwując suwak
+
+‒ Nazwę systemu operacyjnego : Windows 11
+‒ Nazwy środowisk programistycznych : IntelliJ IDEA Community Edition 2022, Android Studio
+‒ Nazwy języków programowania : Java, XML
+‒ Nazwę emulatora dla aplikacji mobilnej : Android Studio Pixel 5 API 33
+
+Czas na egzmain: 2:30h
