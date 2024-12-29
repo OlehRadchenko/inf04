@@ -1,0 +1,38 @@
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\MainWindow.baml
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\MainWindow.g.cs
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\App.g.cs
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024_MarkupCompile.cache
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.g.resources
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.GeneratedMSBuildEditorConfig.editorconfig
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.AssemblyInfoInputs.cache
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.AssemblyInfo.cs
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.csproj.CoreCompileInputs.cache
+O:\5P\inf04\Styczen_2024\bin\Debug\net7.0-windows\Styczen_2024.exe
+O:\5P\inf04\Styczen_2024\bin\Debug\net7.0-windows\Styczen_2024.deps.json
+O:\5P\inf04\Styczen_2024\bin\Debug\net7.0-windows\Styczen_2024.runtimeconfig.json
+O:\5P\inf04\Styczen_2024\bin\Debug\net7.0-windows\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\bin\Debug\net7.0-windows\Styczen_2024.pdb
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\refint\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.pdb
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\Styczen_2024.genruntimeconfig.cache
+O:\5P\inf04\Styczen_2024\obj\Debug\net7.0-windows\ref\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\Czesc II\bin\Debug\net7.0-windows\Styczen_2024.exe
+O:\5P\inf04\Styczen_2024\Czesc II\bin\Debug\net7.0-windows\Styczen_2024.deps.json
+O:\5P\inf04\Styczen_2024\Czesc II\bin\Debug\net7.0-windows\Styczen_2024.runtimeconfig.json
+O:\5P\inf04\Styczen_2024\Czesc II\bin\Debug\net7.0-windows\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\Czesc II\bin\Debug\net7.0-windows\Styczen_2024.pdb
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\MainWindow.baml
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\MainWindow.g.cs
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\App.g.cs
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024_MarkupCompile.cache
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.g.resources
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.GeneratedMSBuildEditorConfig.editorconfig
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.AssemblyInfoInputs.cache
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.AssemblyInfo.cs
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.csproj.CoreCompileInputs.cache
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\refint\Styczen_2024.dll
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.pdb
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\Styczen_2024.genruntimeconfig.cache
+O:\5P\inf04\Styczen_2024\Czesc II\obj\Debug\net7.0-windows\ref\Styczen_2024.dll
