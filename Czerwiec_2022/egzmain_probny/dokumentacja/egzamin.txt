@@ -1,0 +1,5 @@
+‒ Nazwa systemu operacyjnego, na którym pracował zdający. - Windows 11
+‒ Nazwy środowisk programistycznych, z których zdający korzystał na egzaminie. - IntelliJ IDEA Community Edition 2022, Android Studio
+‒ Nazwy języków programowania. - Java, XML
+‒ Nazwa emulatora systemu mobilnego. - Pixel 5 API 33
+Czas: 1:02:48

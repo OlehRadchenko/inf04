@@ -1,0 +1,4 @@
+grid layout
+odczyt z pliku java, c#
+podmiana zdjęć WPF, AS
+random
