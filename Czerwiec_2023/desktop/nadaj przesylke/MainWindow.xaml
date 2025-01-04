@@ -1,0 +1,39 @@
+﻿<Window x:Class="nadaj_przesylke.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nadaj_przesylke"
+        mc:Ignorable="d"
+        Title="Nadaj Przesyłkę, Autor: Oleh Radchenko" SizeToContent="WidthAndHeight" Height="250">
+    <StackPanel Margin="10,0">
+        <StackPanel Margin="10" Orientation="Horizontal">
+            <StackPanel>
+                <GroupBox Header="Rodzaj przesyłki" Margin="0,0,0,10">
+                    <StackPanel>
+                        <RadioButton x:Name="pocztowka" IsChecked="True" GroupName="przesylka" Content="Pocztówka" Margin="0,0,130,0"/>
+                        <RadioButton x:Name="list" GroupName="przesylka" Content="List"/>
+                        <RadioButton x:Name="paczka" GroupName="przesylka" Content="Paczka"/>
+                    </StackPanel>
+                </GroupBox>
+                <Button Click="sprawdzCene" Content="Sprawdź Cenę"/>
+                <StackPanel Orientation="Horizontal">
+                    <Image x:Name="zdjecie" Height="63" Source="/img/pocztowka.png" Stretch="Fill" Margin="0,10"/>
+                    <Label x:Name="cena" Content="Cena: " FontWeight="Bold" FontSize="18" Margin="10"/>
+                </StackPanel>
+            </StackPanel>
+
+            <GroupBox Header="Dane adresowe" Margin="70,0,0,20">
+                <StackPanel>
+                    <Label Content="Ulica z numerem" Width="250"/>
+                    <TextBox x:Name="ulica" Margin="5,0"/>
+                    <Label Content="Kod pocztowy"/>
+                    <TextBox x:Name="kodPocztowy" Width="110" HorizontalAlignment="Left" Margin="5,0"/>
+                    <Label Content="Miasto"/>
+                    <TextBox x:Name="miasto" Margin="5,0"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <Button Click="zatwierdz" Content="Zatwierdź" HorizontalAlignment="Center" Width="550"/>
+    </StackPanel>
+</Window>

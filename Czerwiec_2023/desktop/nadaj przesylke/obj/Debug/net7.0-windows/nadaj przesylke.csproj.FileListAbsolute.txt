@@ -1,0 +1,24 @@
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\nadaj przesylke.exe
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\nadaj przesylke.deps.json
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\nadaj przesylke.runtimeconfig.json
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\nadaj przesylke.dll
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\nadaj przesylke.pdb
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\MainWindow.g.cs
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\App.g.cs
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke_MarkupCompile.cache
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke_MarkupCompile.lref
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\MainWindow.baml
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.g.resources
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.GeneratedMSBuildEditorConfig.editorconfig
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.AssemblyInfoInputs.cache
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.AssemblyInfo.cs
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.csproj.CoreCompileInputs.cache
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.dll
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\refint\nadaj przesylke.dll
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.pdb
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke.genruntimeconfig.cache
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\ref\nadaj przesylke.dll
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\img\list.png
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\img\paczka.png
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\bin\Debug\net7.0-windows\img\pocztowka.png
+O:\5P\inf04\Czerwiec_2023\desktop\nadaj przesylke\obj\Debug\net7.0-windows\nadaj przesylke_Content.g.cs

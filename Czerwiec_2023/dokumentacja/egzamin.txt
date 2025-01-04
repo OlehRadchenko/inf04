@@ -1,0 +1,4 @@
+‒ nazwa systemu operacyjnego, na którym pracował zdający - windows 11
+‒ nazwy środowisk programistycznych, z których zdający korzystał na egzaminie - IntelliJ IDEA Community Edition 2022, Visual Studio 2022
+‒ nazwy języków programowania użytych podczas tworzenia aplikacji - Java, C#, XAML
+‒ opcjonalnie komentarz do wykonanej pracy.
