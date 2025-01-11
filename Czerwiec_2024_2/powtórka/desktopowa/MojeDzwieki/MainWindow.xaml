@@ -1,0 +1,26 @@
+﻿<Window x:Class="MojeDzwieki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MojeDzwieki"
+        mc:Ignorable="d"
+        Title="MojeDźwięki, Wykonał: wstawiony numer zdającego" Height="300" Width="1000"
+        Background="SeaGreen">
+    <Grid>
+        <Image Margin="165,10,635,74" Source="/src/obraz.png" Stretch="Fill"/>
+        <Button HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top" Click="prev">
+            <Image x:Name="lewo" Height="70" Source="/src/obraz3.png" Stretch="Uniform"/>
+        </Button>
+        <Button HorizontalAlignment="Right" Margin="0,70,25,0" VerticalAlignment="Top" Click="next">
+            <Image x:Name="prawo" Height="70" Source="/src/obraz2.png" Stretch="Uniform"/>
+        </Button>
+        <Label x:Name="artist" Content="Label" HorizontalAlignment="Left" Margin="400,11,0,0" VerticalAlignment="Top" Foreground="#FFF" FontSize="50" FontStyle="Italic"/>
+        <Label x:Name="album" Content="Label" HorizontalAlignment="Left" Margin="400,83,0,0" VerticalAlignment="Top" Foreground="#FFF" FontSize="30"/>
+        <Label x:Name="songsNumber" Content="Label" HorizontalAlignment="Left" Margin="400,133,0,0" VerticalAlignment="Top" Foreground="#61D918" FontSize="20"/>
+        <Label x:Name="year" Content="Label" HorizontalAlignment="Left" Margin="504,133,0,0" VerticalAlignment="Top" Foreground="#61D918" FontSize="20"/>
+        <Label x:Name="downloadNumber" Content="Label" HorizontalAlignment="Left" Margin="208,215,0,0" VerticalAlignment="Top" Foreground="#61D918" FontSize="20"/>
+        <Button Content="Pobierz" HorizontalAlignment="Left" Margin="365,220,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#61D918" Padding="5" Click="pobierz"/>
+        <Button Content="Odwróć" HorizontalAlignment="Left" Margin="446,220,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#61D918" Padding="5" Click="odwroc"/>
+    </Grid>
+</Window>
