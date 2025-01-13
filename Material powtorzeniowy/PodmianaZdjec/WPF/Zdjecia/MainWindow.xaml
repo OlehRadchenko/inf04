@@ -1,0 +1,24 @@
+﻿<Window x:Class="Zdjecia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zdjecia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="konsolaXD" Content="GALERIA PSÓW" HorizontalAlignment="Center" FontSize="50" Margin="0,10,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="image2" Margin="271,66,276,116" Source="/pies1.png" Stretch="Fill"/>
+        <Image x:Name="image1" Margin="13,66,534,116" Source="/pies2.png" Stretch="Fill"/>
+        <Image x:Name="image3" Margin="529,66,17,116" Source="/pies3.png" Stretch="Fill"/>
+        <Button x:Name="bigPrev" Content="-->" HorizontalAlignment="Left" Margin="68,323,0,0" VerticalAlignment="Top" Height="74" Width="142" FontSize="50" Click="prev"/>
+        <Button x:Name="bigNext" Content="-->" HorizontalAlignment="Left" Margin="585,323,0,0" VerticalAlignment="Top" Height="74" Width="142" FontSize="50" Click="next"/>
+        <Button x:Name="smallPrev1" Content="lewo" HorizontalAlignment="Left" Margin="68,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="prev1" Visibility="Hidden"/>
+        <Button x:Name="smallNext1" Content="prawo" HorizontalAlignment="Left" Margin="138,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="next1" Visibility="Hidden"/>
+        <Button x:Name="smallPrev2" Content="lewo" HorizontalAlignment="Left" Margin="326,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="prev2" Visibility="Hidden"/>
+        <Button x:Name="smallNext2" Content="prawo" HorizontalAlignment="Left" Margin="398,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="next2" Visibility="Hidden"/>
+        <Button x:Name="smallPrev3" Content="lewo" HorizontalAlignment="Left" Margin="585,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="prev3" Visibility="Hidden"/>
+        <Button x:Name="smallNext3" Content="prawo" HorizontalAlignment="Left" Margin="655,342,0,0" VerticalAlignment="Top" Height="36" Width="72" FontSize="20" Click="next3" Visibility="Hidden"/>
+        <CheckBox x:Name="mode" Content="Mode" IsChecked="True" HorizontalAlignment="Left" Margin="732,10,0,0" VerticalAlignment="Top" Checked="modeChecked" Unchecked="modeUnchecked"/>
+    </Grid>
+</Window>

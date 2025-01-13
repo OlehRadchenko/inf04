@@ -1,0 +1,14 @@
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.exe
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.deps.json
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.dll
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.pdb
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.dll
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\refint\ConsoleApp1.dll
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
+O:\5P\inf04\Material powtorzeniowy\Odczyt z pliku\c plotek\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
